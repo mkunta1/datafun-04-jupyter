@@ -1,11 +1,12 @@
-# datafun-04-jupyter
-Created gitignore file 
-Created virtual environment and ativated the environment 
-installed dependencies
+# Datafun-04-jupyter
 
-...
-git add. 
+## Created Project Virtual Environemnt 
+py -m venv .venv
 
-git commit -m "initial commit" 
-git pull -u origin main
-...
+## Activate the Project Virtual Environment
+.\.venv\Scripts\activate
+
+## Install Packages into Active Environment
+py -m pip install jupyterlab pandas pyarrow matplotlib seaborn
+
+## Push to GitHub
